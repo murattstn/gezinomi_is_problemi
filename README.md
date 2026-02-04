@@ -59,7 +59,9 @@ Bu kapsamda amaç:
    conda env create -f environment.yml
 
 2. Ortamı aktive et:
-   ```conda activate <environment_name>
+   ```bash
+   conda activate <environment_name>
 
 3. Python dosyasını çalıştır:
-    ```python gezinomi.py
+    ```<environment_name>
+    python gezinomi.py
